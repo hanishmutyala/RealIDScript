@@ -36,7 +36,7 @@ def check_appointments():
 
 def send_email():
     subject = "🎉 NJ MVC Appointment Available!"
-    body = f"Appointments may be available at {URL}"
+    body = f"From Github Appointments may be available at {URL}"
     
     msg = MIMEText(body)
     msg["Subject"] = subject

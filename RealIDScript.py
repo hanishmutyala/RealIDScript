@@ -12,7 +12,7 @@ EMAIL_PASSWORD = "nfbfluyiincnlwip"
 EMAIL_RECEIVER = "hanishmutyala@gmail.com"
 
 # Target URL
-URL = "https://telegov.njportal.com/njmvc/AppointmentWizard/12"
+URL = "https://telegov.njportal.com/njmvc/AppointmentWizard/16"
 
 def check_appointments():
     print("Checking for appointments...")

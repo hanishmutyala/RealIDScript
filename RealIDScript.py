@@ -57,6 +57,7 @@ schedule.every(1).hours.do(check_appointments)
 
 # Run the script continuously
 if __name__ == "__main__":
+    print("Checking URL: " + URL)
     print("Starting appointment checker...")
     check_appointments()  # Run immediately
     while True:
